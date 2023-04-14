@@ -12,7 +12,7 @@ let db = new DB();
 /** Initialize database connection */
 async function initDB() {
     await db.connect();
-    console.log("Connected to database");
+    console.log("Connected to database.");
 }
 
 // implement API routes
