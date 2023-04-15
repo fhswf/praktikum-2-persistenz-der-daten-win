@@ -12,10 +12,10 @@ let db = new DB();
 /** Initialize database connection */
 async function initDB() {
     await db.connect();
-    console.log("Connected to database");
+    console.log("Connected to database.");
 }
 
-// implement API routes
+// implement API route
 
 /** Return all todos. 
  *  Be aware that the db methods return promises, so we need to use either `await` or `then` here! 
